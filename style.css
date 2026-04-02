@@ -16,9 +16,3 @@ body {
 h1, h2, p {
     margin: 0 0 12px;
 }
-
-.temperature {
-    color: #000;
-    font-size: 48px;
-    font-weight: bold;
-}
