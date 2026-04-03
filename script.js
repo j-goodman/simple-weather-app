@@ -1,11 +1,12 @@
 async function getVancouverWeather () {
-    const response = await fetch(`https://wttr.in/Paris?format=j1`)
-    const weatherInfo = await response.json()
+    // const response = await fetch(`https://wttr.in/Paris?format=j1`)
+    // const weatherInfo = await response.json()
     
-    console.log(weatherInfo)
-    if (weatherInfo === null) {
-        return
-    }
+    // console.log(weatherInfo)
+    // if (weatherInfo === null) {
+    //     return
+    // }
+    weatherInfo = parisWeather
 
     const cityBox = document.querySelector("#location-city")
     const countryBox = document.querySelector("#location-country")
